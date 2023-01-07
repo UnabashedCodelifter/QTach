@@ -1,3 +1,7 @@
+//kiedy karty som niewidoczne
+
+const invisibleCard =[true,true,true,true];
+
 const cards = document.querySelectorAll(".card");
 cards[0].addEventListener("click", function(){showDesc(0)});
 cards[1].addEventListener("click", function(){showDesc(1)});
