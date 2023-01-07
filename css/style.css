@@ -69,10 +69,23 @@ button:active {
     text-align: center;
 }
 
+article h2 {
+    margin-top: 50px;
+    text-align: center;
+    color: #414141;
+}
+
+hr {
+    background-color: #CACACA;
+    height: 2px;
+    border: none;
+    max-width: 90%;
+}
+
 .cards {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 80px 20px;
+    padding: 40px 20px;
     display: flex;
     justify-content: space-between;
 }
